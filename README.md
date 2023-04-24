@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Capstone First <a name="about-project"></a>
 
 
 **Portfolio** is a profile website with basic HTML CSS project.
@@ -32,14 +32,14 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML/CSS/JavaScript</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>GitHub</summary>
   <ul>
     <li><a href="https://github.com/">Github</a></li>
   </ul>
@@ -52,8 +52,8 @@
 
 
 - **Mobile Version**
-- **Skills Section**
-- **Linter for HTML-CSS**
+- **Desktop Version**
+- **HTML-CSS-JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,12 +62,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
     
-      https://mailsg.github.io
+      Coming Soon...
 
 
 ##    Presentation of the Project
       
-      https://www.loom.com/share/91569974e6054ea59eecf7b4838b2e80      
+      Coming Soon...      
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +96,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mailsg/Portfolio.git
+  git clone git@github.com:mailsg/Capstone-1.git
 ```
 
 ### Install
@@ -130,18 +130,6 @@ To run the project, execute the following command:
 
 - GitHub: [@mailsg](https://github.com/mailsg)
 
-👤 **Charles**
-
-- GitHub: [@forLoop94](https://github.com/forLoop94)
-
-👤 **Habtamu**
-
-- GitHub: [@Benawi](https://github.com/Benawi)
-
-
-👤 **Ceylene**
-
-- GitHub: [@CELYNEBIRUNGI](https://github.com/CELYNEBIRUNGI)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,9 +138,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Functional Components**
-- [ ] **Responsive Version**
-- [ ] **Desktop Version**
+- [ ] **Profile Section**
+- [ ] **Database Incorporation**
+- [ ] **Cloud Deployment**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +150,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/mailsg/Portfolio/issues](../../issues/).
+Feel free to check the [https://github.com/mailsg/Capstone-1/issues](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
