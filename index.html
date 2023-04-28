@@ -1,11 +1,189 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
-<body>
 
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISHWT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Crete Round' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer async type="module" src="index.js"></script>
+  </head>
+
+  <body class="flex wrapper">    
+  	<main>		
+  			<header>
+          
+          <!-- Desktop Pre Navigation bar-->
+
+  				<div class="pre-nav sub-section-grey">
+            <ul><a href="#"><i class="fa fa-facebook"></i></a></ul>
+            <ul><a href="#"><i class="fa fa-twitter"></i></a></ul>
+            <ul><a href="#" class="sub-section-text-white">English</a></ul>
+            <ul><a href="#" class="sub-section-text-white">My Page</a></ul>
+            <ul><a href="#" class="sub-section-text-white">Logout</a></ul>
+          </div>
+
+          <!-- Mobile Navigation Bar-->
+
+          <nav class="mobile-nav flex">
+            <div id="menu-bar" data-menu>
+              <div class="menu-bar"></div>
+              <div class="menu-bar"></div>
+              <div class="menu-bar"></div>
+            </div>
+            <a href="index.html"><img class="logo-mobile" src="images/logo_001.png" alt=""></a>
+          </nav>
+
+          <!-- Desktop Naviagtion Bar-->
+
+          <nav class="desktop-nav flex display-none">
+            <a href="#"><img class="logo" src="images/logo_001.png" alt="ISHWT 2023 Logo"></a>
+            <ul class="flex">
+              <li><a href="about.html">About</a></li>
+              <li><a href="#program-section">Program</a></li>
+              <li><a href="#speakers-section">Join</a></li>
+              <li><a href="#partners">Sponsors</a></li>
+              <li><a href="about.html/#see-past-header">News</a></li>
+              <li><a href="#">
+                <div class="campaign">CHG campaign</div>
+              </a></li>
+            </ul>
+          </nav>
+
+          <!-- Main Header-->
+
+          <section class="headline-section">
+            <p class="pre-header">"Hello! Health & Wellness World"</p>
+            <h1 class="main-title">International Summit on<br>Health & Wellness Tourism<br>2023</h1>
+            <p class="main-paragraph grey-text mobile-font">A joyful celebration believing in the value of Health and Wellness, creating a positive change with people from over 80 countries is taking place in October, in India.<br><br>A joyful celebration believing in the value of Health and Wellness, creating a positive change with people from over 80 countries is taking place in October, in India.</p>
+            <div class="program-date">
+              <p id="bold-text" class="mobile-font">2023.10.12(THU) ~ 18(WED)</p>
+              <p class="venue grey-text mobile-font">@ India Habitat Center, Jor Bagh, New Delhi, India</p>
+            </div>
+          </section>
+  			</header>
+
+          <!-- Main Program Section -->
+
+        <section id="program-section" class="sub-section-black">
+          <h2 class="section-header-white">Main Program</h2>
+          
+          <div class="middle-underline flex justify-center">
+            <div class="line"></div>
+          </div>
+
+            <!-- Program Cards-->
+
+          <div class="program-list flex flex-column">
+            
+            <div class="flex">
+              <div class="program-icon-div">
+                <img class="program-icons flex" src="images/program-icon-1.png" alt="">
+              </div>
+              <h3 class="sub-section-header-white flex align-center red-color justify-center">Lecture</h3>
+              <p class="program-description sub-section-text-white">Listen to the speakers from various countries talk about the messages of sharing and opening.</p>
+            </div>
+
+            <div class="flex">
+              <div class="program-icon-div">
+                <img class="program-icons flex" src="images/program-icon-2.png" alt="">
+              </div>
+              <h3 class="sub-section-header-white flex align-center red-color justify-center">CC Exhibition</h3>
+              <p class="program-description sub-section-text-white">Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+            </div>
+
+            <div class="flex">
+              <div class="program-icon-div">
+                <img class="program-icons flex" src="images/program-icon-3.png" alt="">
+              </div>
+              <h3 class="sub-section-header-white flex align-center red-color justify-center">Forum</h3>
+              <p class="program-description sub-section-text-white">Have the time to share your thoughts and opinions with experts for each topic.</p>
+            </div>
+
+            <div class="flex">
+              <div class="program-icon-div">
+                <img class="program-icons flex" src="images/program-icon-4.png" alt="">
+              </div>
+              <h3 class="sub-section-header-white flex align-center red-color justify-center">Workshop</h3>
+              <p class="program-description sub-section-text-white">Try creating your own work using open source license rather than just watching at it.</p>
+            </div>
+
+            <div class="flex">
+              <div class="program-icon-div">
+                <img class="program-icons flex" src="images/program-icon-5.png" alt="">
+              </div>
+              <h3 class="sub-section-header-white flex align-center red-color justify-center">CC Ignite</h3>
+              <p class="program-description sub-section-text-white">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+            </div>
+
+          </div>
+
+              <!-- Mobile Join Button-->
+
+          <div class="join-btn flex">
+            <p class="text-center">Join ISHWT GLobal Summit 2023</p>
+          </div>
+
+          <div class="desktop-program-section-footer flex justify-center">
+            <p>SEE WHOLE PROGRAM</p>
+          </div>
+
+        </section>
+
+        <!-- Speakers section-->
+
+        <section id="speakers-section" class="sub-section-white">
+          <h2 class="section-header-black">Featured Speakers</h2>
+          <div class="middle-underline flex justify-center">
+            <div class="line"></div>
+          </div>
+          <article class="cards-container">
+            </div>
+          </article>
+        </section>
+
+        <!-- Partners section-->
+
+        <section id="partners" class="sub-section-black partners-home">
+          <h2 class="section-header-white">Partner</h2>
+
+          <div class="middle-underline flex justify-center">
+            <div class="line"></div>
+          </div>
+
+          <ul class="flex justify-center">
+            <li class="first-icon"><img class="partner-logo" src="images/mozilla_1.png" alt="Mozilla"></li>
+            <li class="second-icon"><img class="partner-logo" src="images/google_2.png" alt="Google"></li>
+            <li class="third-icon"><img class="partner-logo" src="images/naver_3.png" alt="Naver"></li>
+            <li class="first-icon"><img class="partner-logo" src="images/daumkakao_4.png" alt="Daumkakao"></li>
+            <li class="second-icon"><img class="partner-logo" src="images/airbnb_5.png" alt="Airbnb"></li>
+          </ul>
+
+        </section>
+
+        <!-- Footer section-->
+
+        <footer class="flex sub-section-white footer-home">
+          <div class="flex">
+            <img class="footer-logo" src="images/logo_001.png" alt="ISHWT 2023 Logo">
+            <h3 class="grey-text">
+              International Summit on Health &
+              <br>
+              Wellness Tourism 2023
+            </h3>
+          </div>
+
+          <div class="copyrights grey-text">2023 ISHWT CHG India, Some Rights Reserved.
+          </div>
+        </footer>
+
+  	</main>
+    
+  </body>
 </html>

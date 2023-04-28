@@ -1,1 +1,0 @@
-const header = document.querySelector('wrapper');
