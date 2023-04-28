@@ -301,14 +301,6 @@ li {
     width: 2rem;
     border-radius: 5px;
   }
-
-  .sub-section-text-white {
-    color: white;
-    margin-top: 1rem;
-    line-height: 20px;
-    font-size: 12px;
-  }
-
   .sub-section-grey {
     background-color: #414246;
     color: white;
