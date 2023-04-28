@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
     
-      Coming Soon...
+      https://mailsg.github.io/Capstone-1/
 
 
 ##    Presentation of the Project
