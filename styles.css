@@ -68,9 +68,12 @@ li {
     justify-content: flex-end;
     width: 100%;
     height: 1.5rem;
+
+    /* padding: 0.5rem 16.5rem 0.5rem 0; */
     align-items: center;
     padding: 0 17%;
     position: fixed;
+    gap: 1.5rem;
     z-index: 3;
   }
 
@@ -86,7 +89,7 @@ li {
   .desktop-nav {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 15% 0.5rem 12%;
+    padding: 0.5rem 7% 0.5rem 10%;
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     width: 100%;
@@ -98,7 +101,7 @@ li {
   .desktop-nav ul,
   li {
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 5rem;
     align-items: center;
     cursor: pointer;
   }
@@ -181,7 +184,7 @@ li {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     row-gap: 2px;
-    padding: 2rem 10%;
+    padding: 2rem 16% 2rem 8rem;
   }
 
   .desktop-program-section-footer,
@@ -276,37 +279,6 @@ li {
   }
 }
 
-/** Style for MOBILE */
-
-/* @media only screen and (max-width: 767px) {
-  .wrapper {
-    width: 375px;
-  }
-
-  .display-none,
-  .partners-home,
-  .footer-home,
-  .desktop-program-section-footer,
-  .footer-text,
-  .desktop-cards,
-  .pre-nav,
-  .pad-top {
-    display: none;
-  }
-
-  .menu-bar {
-    height: 0.35rem;
-    background-color: #6b6b69;
-    margin: 5px;
-    width: 2rem;
-    border-radius: 5px;
-  }
-  .sub-section-grey {
-    background-color: #414246;
-    color: white;
-  }
-} */
-
 header {
   background: url('images/home-bg-desk.png');
   background-position: center;
@@ -377,7 +349,7 @@ h1 {
 .sub-section-black {
   background-color: #282b32;
   color: white;
-  margin-top: -15px;
+  margin-top: 0;
 }
 
 .sub-section-black,
@@ -468,6 +440,7 @@ h1 {
   width: 250px;
   height: 175px;
   position: relative;
+  margin-left: -6rem;
 }
 
 .speaker-image {
@@ -547,7 +520,7 @@ h1 {
 }
 
 .simple-cards {
-  padding: 2rem 10vw;
+  padding: 2rem 14vw 0 8rem;
 }
 
 .simple-cards > div {
@@ -566,7 +539,7 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   .wrapper {
-    width: 100%;
+    width: 375px;
   }
 
   .menu-bar {
@@ -616,7 +589,7 @@ h1 {
   .pre-header {
     color: #ff5438;
     font-size: 25px;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 7rem;
   }
 
@@ -625,7 +598,7 @@ h1 {
     font-weight: 800;
     color: #ff5438;
     padding: 0;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .main-paragraph {
@@ -635,7 +608,7 @@ h1 {
     background-color: white;
     color: black;
     border: 2px solid white;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   #bold-text {
@@ -643,24 +616,24 @@ h1 {
     font-weight: 900;
     font-size: 20px;
     margin-bottom: 0.3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .venue {
     font-size: 16px;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
 
   .program-list div {
     margin: 0.5rem 0;
     background-color: #3b3e45;
     padding: 0.5rem;
-    margin-left: 2.5rem;
+    margin-left: 0.5rem;
   }
 
   .program-icons {
-    height: 3.5rem;
-    margin-left: -3rem;
+    height: 2.5rem;
+    margin-left: -1rem;
   }
 
   .program-description {
@@ -692,7 +665,7 @@ h1 {
 
   .join-btn {
     justify-content: center;
-    margin: 2rem 0 2rem 3rem;
+    margin: 2rem 0 2rem 1rem;
   }
 
   .join-btn p {
@@ -710,7 +683,7 @@ h1 {
     width: 125px;
     height: 125px;
     position: relative;
-    margin-left: -5rem;
+    margin-left: -7.3rem;
   }
 
   .speaker-image {
@@ -764,7 +737,7 @@ h1 {
     font-weight: 800;
     color: #ff5438;
     padding: 0;
-    margin-left: 1rem;
+    margin-left: 7rem;
   }
 
   .about-main-paragraph {
@@ -774,28 +747,30 @@ h1 {
     background-color: white;
     color: black;
     border: 2px solid white;
-    margin-left: 3rem;
+    margin-left: 7rem;
   }
 
   .section-header-black {
     text-align: center;
-    margin: 1rem 5rem;
-    margin-left: 1rem;
+    margin: 1rem 4rem;
+    margin-left: -1rem;
   }
 
   .logo-image {
-    margin: 1rem 4rem 0 0;
+    margin: 1rem 2rem 1rem 1rem;
     border: 1px solid rgb(230, 223, 223);
     padding: 0;
   }
 
   .mob-text {
     color: #515151;
-    margin-right: 6rem;
+
+    /* margin-right: 7rem; */
+    margin: 0 2rem 0 1rem;
   }
 
   .simple-cards > div {
-    margin: 1rem 0 0 -4rem;
+    margin: 0 -1rem 1rem -7rem;
     height: 40vh;
   }
 
@@ -811,7 +786,7 @@ h1 {
   }
 
   .about_mobile_nav {
-    padding: 0.5rem 20rem;
+    padding: 0.5rem 23rem;
     background-color: rgba(255, 255, 255, 0.6);
     margin-bottom: 6rem;
     position: fixed;
@@ -870,17 +845,30 @@ h1 {
   }
 
   .about-menu {
-    padding: 8rem 3rem;
+    padding: 8rem 6rem;
     background-color: #282b32;
     position: fixed;
     top: 0;
-    width: 65%;
-    height: 100vh;
+    width: 75%;
+    height: 100%;
     z-index: 3;
   }
 
   .partner-logo {
     height: 3rem;
     margin-left: 3rem;
+  }
+
+  .line-fsp {
+    height: 0.2rem;
+    width: 2rem;
+    background-color: #ec5242;
+    margin: 0 0 0 -6rem;
+  }
+
+  .sub-section-black {
+    background-color: #282b32;
+    color: white;
+    margin-top: 3rem;
   }
 }
