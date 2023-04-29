@@ -22,10 +22,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone First <a name="about-project"></a>
+# 📖 First Capstone Project <a name="about-project"></a>
 
 
-**Portfolio** is a profile website with basic HTML CSS project.
+**ISHWT 2023** is a website that shows information about a Health & Wellness Conference.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,9 +51,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Mobile Version**
-- **Desktop Version**
-- **HTML-CSS-JavaScript**
+- **Home Page**
+- **About Page**
+- **Mobile & Desktop Versions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,12 +62,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
     
-      Coming Soon...
+      https://mailsg.github.io/Capstone-1/
 
 
 ##    Presentation of the Project
       
-      Coming Soon...      
+      https://www.loom.com/share/d35af9912162425fb624c425397423d9      
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,10 +84,10 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 
+- a browser
+- git
+- nodejs
 
-```sh
- npm init -y
-```
 
 ### Setup
 
@@ -116,8 +116,20 @@ To run the project, execute the following command:
 
 
 ```sh
-  npm start
+  Open index.html in browser
+  or
+  Open with Live server in Vscode
 ```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+  npx hint .
+  npx eslint .
+```  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,8 +151,8 @@ To run the project, execute the following command:
 
 
 - [ ] **Profile Section**
-- [ ] **Database Incorporation**
-- [ ] **Cloud Deployment**
+- [ ] **News Section**
+- [ ] **Join Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +171,7 @@ Feel free to check the [https://github.com/mailsg/Capstone-1/issues](../../issue
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project, you are welcome to contribute or modify this project.
+If you like this project give me a follow and/or a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +180,8 @@ If you like this project, you are welcome to contribute or modify this project.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse and team.
+- To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
+- Creative Commons license of the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
